@@ -1,0 +1,28 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Secrets
+secrets/
+credentials/
+*.secret
+
+# Private keys
+*.p8
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated OpenFlow configurations
+openflow/configs/*
+!openflow/configs/.gitkeep
